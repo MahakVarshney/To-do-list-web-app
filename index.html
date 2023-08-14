@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="checklist.png" type="image/x-icon">
+    <title>To-Do List</title>
+</head>
+<body>
+    <nav>
+        <ul class="section-right">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#add-task">Add Task</a></li>
+            <li><a href="#remove-task">Remove Task</a></li>
+            <li><a href="#mark-complete">Mark as Complete</a></li>
+            <li><a href="#contact" >Contact</a></li>
+        </ul>
+    </nav>
+    <div class="image-container">
+        <img src="To_Do_List.webp" alt="To-do list">
+    </div>
+
+  <section id="home">
+      <h1>Welcome to Our To-Do List Web App</h1>
+      <p>Are you tired of forgetting important tasks? Our to-do list web app helps you stay on track with your daily activities.you can quickly add and remove tasks and mark them as complete. </p>
+      <p>Our to-do list web application is designed to help you stay organized and on task. The app features a simple user interface that allows you to easily add and remove tasks, mark them as complete, and persist them in local storage for retrieval. Say goodbye to cluttered task lists and hello to a more productive day!</p>
+  </section>
+
+    <section id="add-task">
+        <h2>Add Task</h2>
+        <input type="text" id="taskInput" placeholder="Enter task...">
+        <button id="addButton">Add</button>
+    </section>
+
+    <section id="remove-task">
+        <h2>Remove Task</h2>
+        <ul id="taskList"></ul>
+    </section>
+
+    <section id="mark-complete">
+        <h2>Mark as Complete</h2>
+        <ul id="completeList"></ul>
+    </section>
+
+
+
+    <footer id="contact">
+      <section class="contact-section">
+    <h2>Contact Details</h2>
+    <br>
+    <div class="contact-info">
+      <h2>Address:</h2>
+      <p>123 Main Street</p>
+      <p>City, State, Zip Code</p>
+      <p>Country</p>
+<br>
+      <h2>Email:</h2>
+      <p>contact@example.com</p>
+<br>
+      <h2>Phone:</h2>
+      <p>+1 (123) 456-7890</p>
+      <br>
+    </div>
+  </section>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
